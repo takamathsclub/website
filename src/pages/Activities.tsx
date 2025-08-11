@@ -8,21 +8,21 @@ const activitiesList = [
     title: 'Présentation officielle du club',
     date: '14 Août 2025',
     description: 'Par le Comité TakaMaths.',
-    bgImage: 'https://placehold.co/1920x1080/2c3e50/ecf0f1?text=Fractal+Geometry',
+    bgImage: 'https://placehold.co/1920x1080/2c3e50/cbcbcb?text=Fractal+Geometry',
     icon: FaChalkboardTeacher
   },
   {
     title: 'Atelier : "Algèbre linéaire visuelle"',
     date: '16 Août 2025',
     description: 'Par le Comité TakaMaths.',
-    bgImage: 'https://placehold.co/1920x1080/2980b9/ecf0f1?text=Neural+Network',
+    bgImage: 'https://placehold.co/1920x1080/2980b9/cbcbcb?text=Neural+Network',
     icon: FaChalkboardTeacher
   },
   {
     title: 'Atelier: Algorithme',
     date: '23 Août 2025',
     description: 'Par le Comité TakaMaths.',
-    bgImage: 'https://placehold.co/1920x1080/e74c3c/ecf0f1?text=Mathematical+Formulas',
+    bgImage: 'https://placehold.co/1920x1080/178c7c/cbcbcb?text=Mathematical+Formulas',
     icon: FaChalkboardTeacher
   },
   // Ajoutez d'autres activités ici

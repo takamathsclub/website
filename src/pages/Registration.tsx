@@ -72,7 +72,7 @@ const Registration: React.FC = () => {
         <div className="mvola-steps">
           <motion.div className="step" whileHover={{ scale: 1.03 }} variants={cardVariants}>
             <div className="step-number">1</div>
-            <p>Transférez <strong>2200 Ar</strong> au numéro 034 84 830 71.</p>
+            <p>Transférez <strong>3 150 Ar</strong> (dont 150 Ar de frais de retrait) au numéro 034 84 830 71.</p>
           </motion.div>
           <motion.div className="step" whileHover={{ scale: 1.03 }} variants={cardVariants}>
             <div className="step-number">2</div>
