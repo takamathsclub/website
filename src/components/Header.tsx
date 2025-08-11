@@ -15,6 +15,7 @@ const navItemVariants: Variants = {
 };
 
 const Header: React.FC = () => {
+  const logoUrl = "tk-logo.png";
   return (
     <motion.header
       className="header-nav"
@@ -23,7 +24,7 @@ const Header: React.FC = () => {
       animate="visible"
     >
       <motion.div variants={navItemVariants} className="logo">
-        <Link to="/">TakaMaths</Link>
+        <Link to="/"> <img src={logoUrl} alt="logo" /> TakaMaths</Link>
       </motion.div>
       <motion.ul className="nav-links">
         {['Accueil', 'Activités', 'Inscription', 'Contact'].map((item) => (

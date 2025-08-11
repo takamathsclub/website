@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
           </motion.div>
           <motion.div className="contact-card" variants={itemVariants}>
             <FaPhone size={30} className="icon" />
-            <p><strong>Téléphone:</strong> +261 3* 00 000 00</p>
+            <p><strong>Téléphone:</strong><br/> +261 38 43 061 96 <br/> +261 33 67 674 99</p>
           </motion.div>
           
           <motion.div className="social-links" variants={itemVariants}>

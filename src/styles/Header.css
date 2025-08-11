@@ -14,9 +14,18 @@
 }
 
 .logo a {
+  display: flex;
+  align-items: center;
   font-size: 1.8rem;
   font-weight: bold;
   color: #fff;
+}
+
+.logo img {
+  width: 35px;
+  height: 35px; 
+  margin-right: 14px;
+  border-radius: 50%;
 }
 
 .nav-links {

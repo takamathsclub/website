@@ -50,7 +50,7 @@ const Registration: React.FC = () => {
             <h3>2. Inscription en ligne</h3>
             <p>Utilisez le lien ci-dessous pour vous inscrire via le site externe.</p>
             <motion.a 
-              href="https://forms.google.com/d/e/1234567890/viewform"
+              href="https://forms.gle/xPLjzZaebSNoAkJHA"
               target="_blank" 
               rel="noopener noreferrer"
               className="online-reg-button"
@@ -72,7 +72,7 @@ const Registration: React.FC = () => {
         <div className="mvola-steps">
           <motion.div className="step" whileHover={{ scale: 1.03 }} variants={cardVariants}>
             <div className="step-number">1</div>
-            <p>Transférez <strong>3000 Ar</strong> au numéro du club (ex: `034 00 000 00`).</p>
+            <p>Transférez <strong>2200 Ar</strong> au numéro 034 84 830 71.</p>
           </motion.div>
           <motion.div className="step" whileHover={{ scale: 1.03 }} variants={cardVariants}>
             <div className="step-number">2</div>
