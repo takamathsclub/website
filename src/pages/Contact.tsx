@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import '../styles/Contact.css';
 
@@ -22,7 +22,7 @@ const Contact: React.FC = () => {
     setFormData({ name: '', email: '', message: '' });
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
   };
@@ -57,7 +57,7 @@ const Contact: React.FC = () => {
           </motion.div>
           
           <motion.div className="social-links" variants={itemVariants}>
-            <motion.a taget="_blank" href="https://www.facebook.com/profile.php?id=61578556116406" whileHover={{ scale: 1.2 }}><FaFacebook size={30} /></motion.a>
+            <motion.a target="_blank" href="https://www.facebook.com/profile.php?id=61578556116406" whileHover={{ scale: 1.2 }}><FaFacebook size={30} /></motion.a>
             <motion.a href="#" whileHover={{ scale: 1.2 }}><FaTwitter size={30} /></motion.a>
             <motion.a href="#" whileHover={{ scale: 1.2 }}><FaInstagram size={30} /></motion.a>
           </motion.div>

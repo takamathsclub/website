@@ -29,8 +29,6 @@ const activitiesList = [
 ];
 
 const Activities: React.FC = () => {
-  const { scrollYProgress } = useScroll();
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 1.2]);
 
   return (
     <div className="activities-container">

@@ -1,14 +1,15 @@
 import React from 'react';
+import { Variants, motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import '../styles/Header.css';
 
-const navVariants = {
+const navVariants: Variants = {
   hidden: { opacity: 0, y: -50 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.5, staggerChildren: 0.1 } },
 };
 
-const navItemVariants = {
+const navItemVariants: Variants = {
   hidden: { opacity: 0, y: -20 },
   visible: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 100 } },
 };

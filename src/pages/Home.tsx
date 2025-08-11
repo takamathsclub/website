@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import { FaLaptopCode, FaChartLine, FaBrain, FaCalendarAlt, FaCode } from 'react-icons/fa';
 import '../styles/Home.css';
 
@@ -14,12 +14,12 @@ const Home: React.FC = () => {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
   };
 
-  const workshopVariants = {
+  const workshopVariants: Variants = {
     hidden: { scale: 0.9, opacity: 0 },
     visible: { scale: 1, opacity: 1, transition: { type: "spring", stiffness: 100 } },
   };
